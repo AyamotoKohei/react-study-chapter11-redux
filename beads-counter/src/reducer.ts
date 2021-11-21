@@ -1,4 +1,4 @@
-import { Reducer } from 'react';
+import { Reducer } from 'redux';
 import { CounterAction, CounterActionType as Type } from 'actions';
 
 export type CounterState = { count: number };
